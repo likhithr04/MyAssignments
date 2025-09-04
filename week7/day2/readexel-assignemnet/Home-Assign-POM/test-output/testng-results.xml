@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-04T16:16:19 IST" name="Suite" finished-at="2025-09-04T16:17:06 IST" duration-ms="47151">
+    <groups>
+    </groups>
+    <test started-at="2025-09-04T16:16:19 IST" name="Test-parallel" finished-at="2025-09-04T16:17:06 IST" duration-ms="47151">
+      <class name="testcases.TC_003_CreateAccount">
+        <test-method is-config="true" signature="setData()[pri:0, instance:testcases.TC_003_CreateAccount@43df23d3]" started-at="2025-09-04T16:16:19 IST" name="setData" finished-at="2025-09-04T16:16:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:testcases.TC_003_CreateAccount@43df23d3]" started-at="2025-09-04T16:16:48 IST" name="preConditions" finished-at="2025-09-04T16:16:53 IST" duration-ms="5424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="createLead(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC_003_CreateAccount@43df23d3]" started-at="2025-09-04T16:16:53 IST" name="createLead" data-provider="fetchData" finished-at="2025-09-04T16:16:57 IST" duration-ms="3725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Likhith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:testcases.TC_003_CreateAccount@43df23d3]" started-at="2025-09-04T16:16:57 IST" name="postConditions" finished-at="2025-09-04T16:16:57 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:testcases.TC_003_CreateAccount@43df23d3]" started-at="2025-09-04T16:16:57 IST" name="preConditions" finished-at="2025-09-04T16:17:02 IST" duration-ms="5323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="createLead(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC_003_CreateAccount@43df23d3]" started-at="2025-09-04T16:17:02 IST" name="createLead" data-provider="fetchData" finished-at="2025-09-04T16:17:06 IST" duration-ms="3666" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vineeth]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:testcases.TC_003_CreateAccount@43df23d3]" started-at="2025-09-04T16:17:06 IST" name="postConditions" finished-at="2025-09-04T16:17:06 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+      </class> <!-- testcases.TC_003_CreateAccount -->
+      <class name="testcases.TC_002_LogoutPage">
+        <test-method is-config="true" signature="setData()[pri:0, instance:testcases.TC_002_LogoutPage@359df09a]" started-at="2025-09-04T16:16:19 IST" name="setData" finished-at="2025-09-04T16:16:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:testcases.TC_002_LogoutPage@359df09a]" started-at="2025-09-04T16:16:35 IST" name="preConditions" finished-at="2025-09-04T16:16:40 IST" duration-ms="5376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="runLogout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC_002_LogoutPage@359df09a]" started-at="2025-09-04T16:16:40 IST" name="runLogout" data-provider="fetchData" finished-at="2025-09-04T16:16:41 IST" duration-ms="806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Likhith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogout -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:testcases.TC_002_LogoutPage@359df09a]" started-at="2025-09-04T16:16:41 IST" name="postConditions" finished-at="2025-09-04T16:16:41 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:testcases.TC_002_LogoutPage@359df09a]" started-at="2025-09-04T16:16:41 IST" name="preConditions" finished-at="2025-09-04T16:16:47 IST" duration-ms="5417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="runLogout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC_002_LogoutPage@359df09a]" started-at="2025-09-04T16:16:47 IST" name="runLogout" data-provider="fetchData" finished-at="2025-09-04T16:16:48 IST" duration-ms="794" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vineeth]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogout -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:testcases.TC_002_LogoutPage@359df09a]" started-at="2025-09-04T16:16:48 IST" name="postConditions" finished-at="2025-09-04T16:16:48 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+      </class> <!-- testcases.TC_002_LogoutPage -->
+      <class name="testcases.TC_001_LoginPage">
+        <test-method is-config="true" signature="setData()[pri:0, instance:testcases.TC_001_LoginPage@247310d0]" started-at="2025-09-04T16:16:19 IST" name="setData" finished-at="2025-09-04T16:16:19 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:testcases.TC_001_LoginPage@247310d0]" started-at="2025-09-04T16:16:20 IST" name="preConditions" finished-at="2025-09-04T16:16:26 IST" duration-ms="6113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="runLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC_001_LoginPage@247310d0]" started-at="2025-09-04T16:16:26 IST" name="runLogin" data-provider="fetchData" finished-at="2025-09-04T16:16:28 IST" duration-ms="1714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Likhith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:testcases.TC_001_LoginPage@247310d0]" started-at="2025-09-04T16:16:28 IST" name="postConditions" finished-at="2025-09-04T16:16:28 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:testcases.TC_001_LoginPage@247310d0]" started-at="2025-09-04T16:16:28 IST" name="preConditions" finished-at="2025-09-04T16:16:33 IST" duration-ms="5123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="runLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TC_001_LoginPage@247310d0]" started-at="2025-09-04T16:16:33 IST" name="runLogin" data-provider="fetchData" finished-at="2025-09-04T16:16:35 IST" duration-ms="1436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vineeth]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method is-config="true" signature="postConditions()[pri:0, instance:testcases.TC_001_LoginPage@247310d0]" started-at="2025-09-04T16:16:35 IST" name="postConditions" finished-at="2025-09-04T16:16:35 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConditions -->
+      </class> <!-- testcases.TC_001_LoginPage -->
+    </test> <!-- Test-parallel -->
+  </suite> <!-- Suite -->
+</testng-results>
