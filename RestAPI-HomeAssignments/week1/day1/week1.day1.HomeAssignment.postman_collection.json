@@ -1,0 +1,192 @@
+{
+	"info": {
+		"_postman_id": "c62d7faa-67e7-4281-872e-1cb6cc65cee0",
+		"name": "week1.day1.HomeAssignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "19105459"
+	},
+	"item": [
+		{
+			"name": "get_records",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "admin",
+						"password": "mnYC2g!e1OU^"
+					}
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": "https://dev323752.service-now.com/api/now/table/incident/804269ac83c8721064e67965eeaad3d8"
+			},
+			"response": []
+		},
+		{
+			"name": "post_for_create_new_inc",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "admin",
+						"password": "mnYC2g!e1OU^"
+					}
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"short_description\": \"Create incident via postman\",\r\n    \"description\": \"My first incident \"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev323752.service-now.com/api/now/table/:incident",
+					"protocol": "https",
+					"host": [
+						"dev323752",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"now",
+						"table",
+						":incident"
+					],
+					"variable": [
+						{
+							"key": "incident",
+							"value": "incident"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_patch",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "admin",
+						"password": "mnYC2g!e1OU^"
+					}
+				},
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"description\": \"My first incident updated via patch\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://dev323752.service-now.com/api/now/table/incident/804269ac83c8721064e67965eeaad3d8"
+			},
+			"response": []
+		},
+		{
+			"name": "update_put",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "admin",
+						"password": "mnYC2g!e1OU^"
+					}
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"short_description\": \"updated incident via postman\",\r\n    \"description\": \"My first incident updated via put \"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://dev323752.service-now.com/api/now/table/incident/804269ac83c8721064e67965eeaad3d8"
+			},
+			"response": []
+		},
+		{
+			"name": "delete_inc",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"username": "admin",
+						"password": "mnYC2g!e1OU^"
+					}
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": "https://dev323752.service-now.com/api/now/table/incident/804269ac83c8721064e67965eeaad3d8"
+			},
+			"response": []
+		}
+	]
+}
